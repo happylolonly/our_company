@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Hero from "./Hero/Hero";
+import Why from "./Why/Why";
 
 import "./Main.scss";
 
@@ -11,6 +12,7 @@ const Main = () => {
   return (
     <div className="main-page">
       <Hero />
+      <Why />
     </div>
   );
 };
