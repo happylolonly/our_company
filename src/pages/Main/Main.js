@@ -1,10 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import Hero from "./Hero/Hero";
 import Why from "./Why/Why";
+import Technologies from './Technologies/Technologies';
 
-import "./Main.scss";
+import './Main.scss';
 
 const propTypes = {};
 
@@ -13,6 +14,7 @@ const Main = () => {
     <div className="main-page">
       <Hero />
       <Why />
+      <Technologies />
     </div>
   );
 };
