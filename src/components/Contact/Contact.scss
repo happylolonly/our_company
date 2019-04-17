@@ -1,13 +1,32 @@
 .contact {
+  @media (max-width: 576px) {
+    width: 55vw;
+  }
+
   ul {
-    list-style: none;;
-  }
-  a {
-    text-decoration: none;
-    outline: none;
-  }
-  span {
-    color: black;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 25vw;
+    padding: 0;
+
+    li {
+      padding: 5px;
+
+      a {
+        display: flex;
+        text-decoration: none;
+        outline: none;
+
+        span {
+          color: black;
+          margin: 0 10px;
+
+          @media (max-width: 576px) {
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
   }
 }
