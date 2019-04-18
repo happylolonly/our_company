@@ -1,6 +1,16 @@
 .connection {
   text-align: center;
-  Button {
-    margin: 10px;
+  a {
+    :hover {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(0, 102, 255, 0.3);
+      color: #FFFFFF;      
+    }
+    Button {
+      margin: 10px;
+      -webkit-transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;
+      transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;    
+    }
   }
 }
