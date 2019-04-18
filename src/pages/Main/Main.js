@@ -6,6 +6,7 @@ import Why from "./Why/Why";
 import Technologies from './Technologies/Technologies';
 import ContactUs from './ContactUs/ContactUs';
 import Advantages from "./Advantages/Advantages";
+import Connection from "./Connection/Connection";
 
 import './Main.scss';
 
@@ -17,6 +18,7 @@ const Main = () => {
       <Hero />
       <Why />
       <Advantages />
+      <Connection />
       <Technologies />
       <ContactUs />
     </div>
