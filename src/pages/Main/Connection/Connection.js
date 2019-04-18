@@ -10,7 +10,7 @@ const Connection = () => {
   return (
     <div className="connection">
       <p>Если бы мы были на вашем месте, мы бы определенно выбрали нас;)</p>
-      <a href=""><Button>Связаться с нами</Button></a>
+      <a href="#contact"><Button>Связаться с нами</Button></a>
     </div>
   );
 };
