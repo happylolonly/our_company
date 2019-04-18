@@ -1,3 +1,5 @@
+@import "../../../constants/styles/colors.scss";
+
 .button {
   position: relative;
   display: inline-block;
@@ -13,6 +15,6 @@
   color: #FFFFFF;
   text-align: center;
   border-radius: 33px;
-  background: #37cf74;
+  background: $primary-color;
   padding: 18px;
 }
