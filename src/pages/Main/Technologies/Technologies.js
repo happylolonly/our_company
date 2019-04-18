@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Button from "../../../components//common/Button/Button";
 
 import './Technologies.scss';
 
@@ -17,7 +18,7 @@ class Technologies extends Component {
         <p>Наши основные технологии на данный момент это React и Node.js</p>
         <p>Кроме них мы отлично понимаем основы: HTML, CSS, JavaScript</p>
 
-        <button>Наши остальные навыки</button>
+        <Button>Наши остальные навыки</Button>
         <div>
           {/* Front-end */}
           <ul></ul>

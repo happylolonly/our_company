@@ -1,1 +1,10 @@
-.technologies {}
+.technologies {
+  text-align: center;
+  background: rgba(3, 69, 155, 0.829);
+  color: white;
+  Button {
+    margin: 10px;
+    -webkit-transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;
+    transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;    
+  }
+}
