@@ -1,1 +1,20 @@
-.button {}
+.button {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 260px;
+  max-width: 320px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 33px;
+  background: #37cf74;
+  padding: 18px;
+  -webkit-transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;
+  transition: background-color 0.24s, color 0.24s, transform 0.24s, box-shadow 0.24s;
+}
