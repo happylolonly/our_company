@@ -1,20 +1,20 @@
 .contact {
+  margin: auto;
+
   ul {
     display: flex;
     flex-direction: column;
-    list-style: none;
     padding: 0;
+
 
     li {
       padding: 5px;
 
       a {
         display: flex;
-        text-decoration: none;
-        outline: none;
+        color: rgb(113, 199, 221);
 
         span {
-          color: black;
           margin: 0 10px;
 
           @media (max-width: 576px) {
