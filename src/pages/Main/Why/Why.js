@@ -8,10 +8,9 @@ const propTypes = {};
 const Why = () => {
   return (
     <div className="why">
-      <h3>Описание</h3>
-      <p>Разрабатываем интеренет-приложения различного уровня для малого и среднего бизнеса. <br/>
-      У вас быстрорастущий бизнес, требующий выхода на новый уровень, или есть идея, требующая реализации? Наша команда предложит лучшие решения для вас и вашего бизнеса. <br/>
-      Узнайте, как мы это делаем и как мы можем достичь ваших целей - вместе.</p>
+      <h3>About us</h3>
+      <p>Cпециализируемся в разработке современных веб приложений среднего размера.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi dolorum qui saepe, voluptates sed corrupti! Atque nobis praesentium odit officia quia necessitatibus aut maiores eveniet debitis, dolore, consequuntur sequi quis. Earum deleniti et molestiae non ipsum quasi similique, recusandae culpa id, ut officia enim dolorum soluta, tempora eos numquam cupiditate.</p>
     </div>
   );
 };

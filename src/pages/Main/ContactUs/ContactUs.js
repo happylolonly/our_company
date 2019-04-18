@@ -10,7 +10,8 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <h3>Связаться с нами</h3>
-      <p></p>
+      <p>we will do our best. Really</p>
+      {/* или другую воду */}
       <Contact />
     </div>
   );

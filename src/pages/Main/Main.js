@@ -6,6 +6,7 @@ import Why from "./Why/Why";
 import Technologies from './Technologies/Technologies';
 import ContactUs from './ContactUs/ContactUs';
 import Advantages from "./Advantages/Advantages";
+import AnotherAdvantages from "./AnotherAdvantages/AnotherAdvantages";
 
 import './Main.scss';
 
@@ -17,7 +18,9 @@ const Main = () => {
       <Hero />
       <Why />
       <Advantages />
+      {/* тут блок с кнопкой и ссылкой вниз */}
       <Technologies />
+      <AnotherAdvantages />
       <ContactUs />
     </div>
   );
